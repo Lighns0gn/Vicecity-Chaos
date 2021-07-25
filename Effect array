@@ -244,10 +244,10 @@ TimedEffectCategory := "GameSpeed"
 TimedEffectDifficulty = 2
 TimedEffectWeight = 2
 gosub %CurrentLoopCode%
-;TimedEffectName := "QuadrupleGameSpeed"
-;TimedEffectCategory := "GameSpeed"
-;TimedEffectDifficulty = 3
-;gosub %CurrentLoopCode%
+TimedEffectName := "QuadrupleGameSpeed"
+TimedEffectCategory := "GameSpeed"
+TimedEffectDifficulty = 3
+gosub %CurrentLoopCode%
 TimedEffectName := "Lag"
 TimedEffectCategory := "GameSpeed"
 TimedEffectDifficulty = 1
@@ -311,10 +311,10 @@ TimedEffectName := "PhoneCall"
 TimedEffectCategory := "PlayerAnimations"
 TimedEffectDifficulty = 1
 gosub %CurrentLoopCode%
-;TimedEffectName := "EnterCar"
-;TimedEffectCategory := "PlayerAnimations"
-;TimedEffectDifficulty = 2
-;gosub %CurrentLoopCode%
+TimedEffectName := "EnterCar"
+TimedEffectCategory := "PlayerAnimations"
+TimedEffectDifficulty = 2
+gosub %CurrentLoopCode%
 ; Category FrameLimiter
 TimedEffectName := "FrameLimiter15"
 TimedEffectCategory := "FrameLimiter"
@@ -372,26 +372,26 @@ TimedEffectCategory := "Handling"
 TimedEffectDifficulty = 3
 gosub %CurrentLoopCode%
 ;; Category Weather
-;TimedEffectName := "RandomWeather"
-;TimedEffectCategory := "Weather"
-;TimedEffectDifficulty = 2
-;gosub %CurrentLoopCode%
+TimedEffectName := "RandomWeather"
+TimedEffectCategory := "Weather"
+TimedEffectDifficulty = 2
+gosub %CurrentLoopCode%
 ; Category Teleport
 TimedEffectName := "Home"
 TimedEffectCategory := "Teleport"
-TimedEffectDifficulty = 4
+TimedEffectDifficulty = 2
 gosub %CurrentLoopCode%
 TimedEffectName := "Rave"
 TimedEffectCategory := "Teleport"
-TimedEffectDifficulty = 3
+TimedEffectDifficulty = 2
 gosub %CurrentLoopCode%
 TimedEffectName := "Golf"
 TimedEffectCategory := "Teleport"
-TimedEffectDifficulty = 4
+TimedEffectDifficulty = 1
 gosub %CurrentLoopCode%
 TimedEffectName := "ImOuttaHere"
 TimedEffectCategory := "Teleport"
-TimedEffectDifficulty = 4
+TimedEffectDifficulty = 1
 gosub %CurrentLoopCode%
 TimedEffectName := "Cubicle"
 TimedEffectCategory := "Teleport"
