@@ -383,15 +383,15 @@ TimedEffectDifficulty = 2
 gosub %CurrentLoopCode%
 TimedEffectName := "Rave"
 TimedEffectCategory := "Teleport"
-TimedEffectDifficulty = 2
+TimedEffectDifficulty = 4
 gosub %CurrentLoopCode%
 TimedEffectName := "Golf"
 TimedEffectCategory := "Teleport"
-TimedEffectDifficulty = 1
+TimedEffectDifficulty = 3
 gosub %CurrentLoopCode%
 TimedEffectName := "ImOuttaHere"
 TimedEffectCategory := "Teleport"
-TimedEffectDifficulty = 1
+TimedEffectDifficulty = 3
 gosub %CurrentLoopCode%
 TimedEffectName := "Cubicle"
 TimedEffectCategory := "Teleport"
